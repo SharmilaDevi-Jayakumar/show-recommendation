@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import com.kyro.showrecommendation.service.LoginServiceImpl;
 
 @RestController
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="https://sharmiladevi-jayakumar.github.io/ui-show-recommendation/")
 public class ShowRecommendationController {
 
     private final LoginServiceImpl loginServiceImpl;
